@@ -60,6 +60,31 @@ a {
 .border-black {
   border: 2px solid #000 !important;
 }
-.absoluter{
+.absoluter {
   margin-top: 60px;
+}
+.tra {
+  transform: rotateZ(10deg);
+}
+.absolutert {
+  position: absolute;
+  top: 0;
+  right: 1% !important;
+  left: auto !important;
+}
+.border-main:hover {
+  background-color: #9a40ff !important;
+  color: #fff !important;
+}
+.datanma {
+  transition: 0.5s ease;
+}
+.Cardse{
+  transition: .5s ease;
+}
+.Cardse:hover .datanma {
+  color: var(--main) !important;
+}
+.Cardse:hover{
+  transform: scale(1.03);
 }
