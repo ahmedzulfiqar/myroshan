@@ -79,12 +79,52 @@ a {
 .datanma {
   transition: 0.5s ease;
 }
-.Cardse{
-  transition: .5s ease;
+.Cardse {
+  transition: 0.5s ease;
 }
 .Cardse:hover .datanma {
   color: var(--main) !important;
 }
-.Cardse:hover{
+.Cardse:hover {
   transform: scale(1.03);
+}
+.buttoner {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: linear-gradient(30deg, #9a40ff 20%, #7700ff 80%);
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: rgba(193, 244, 246, 0.698) 0px 0px 0px 0px;
+  animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running
+    pulse;
+  align-items: center;
+  border: 0;
+}
+
+.buttoner:hover,
+.buttoner:focus {
+  transform: scale(1.2);
+}
+
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
+  }
+}
+
+@media (max-width: 767px) {
+  .buttoner {
+    width: 60px;
+    height: 60px;
+  }
+  .coverer {
+    min-height: 90vh !important;
+  }
+}
+
+.bg-gradient {
+  background: linear-gradient(30deg, #9a40ff 20%, #7700ff 80%) !important;
 }

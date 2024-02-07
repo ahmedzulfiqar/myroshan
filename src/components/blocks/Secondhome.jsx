@@ -5,8 +5,8 @@ import Cardse from "../atoms/Cardse";
 function Secondhome() {
   return (
     <div
-      className="row m-0 justify-content-center align-items-center  overflow-hidden "
-      style={{ minHeight: "99vh" }}
+      className="row m-0 justify-content-center align-items-center py-5   overflow-hidden "
+      style={{ minHeight: "90vh" }}
     >
       <div className="col-lg-9 col-12 mt-lg-0 mt-4  px-lg-4 ">
         <div className="row m-0 justify-content-center">

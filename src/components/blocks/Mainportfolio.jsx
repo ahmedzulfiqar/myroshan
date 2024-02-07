@@ -1,9 +1,9 @@
 import React from "react";
-import image from "../media/R Logo.png";
+import image from "../media/New-file.webm";
 
-function Mainhome() {
+function Mainportfolio() {
   return (
-    <div className="row m-0 justify-content-center align-items-center py-5  pb-0 overflow-hidden coverer ">
+    <div className="row m-0 justify-content-center align-items-center py-lg-3 py-5 pb-4 overflow-hidden coverer ">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
@@ -91,49 +91,85 @@ function Mainhome() {
           ></path>
         </g>
       </svg>
-      <div className="col-lg-9 col-12 mt-lg-0 mt-4  px-lg-4 ">
-        <div className="row m-0 justify-content-center">
-          <div className="col-lg-6 col-12 align-self-center d-md-block d-none">
-            <div className="display-3 mb-4 fw-bolder text-uppercase">
-              Helping the <span className="text-main">world's greatest </span>
-              creators create.
+      <div className="col-lg-9  col-12 my-5 px-lg-4 ">
+        <div className="row m-0 justify-content-start">
+          <div className="col-lg-5 col-12 align-self-center d-md-block d-none ">
+            <div className="display-4 fw-bolder text-main text-uppercase mb-2">
+              Our Work
             </div>
-            <p className="fs-4 ps-1">
-              Taking content creation to the next level with our post production
-              and growth strategy services.
+            <div className="display-5 mb-4 fw-bolder text-">
+              Professional Video Editing Services That Go Beyond Expectation.
+            </div>
+            <p className="fs-5 ps-1">
+              A broad range of video editing expertise at your service. Whether
+              you’re creating a promotional video, a marketing campaign, or a
+              personal project, Roshan Studio can help take your content to the
+              next level.
             </p>
             <div className="btn-lg btn border-main mx-auto mt-3 ms-1 rounded-1">
               Contact Us{" "}
               <i class="fa fa-arrow-right ps-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div className="col-lg-6 col-12 align-self-center d-md-none d-block">
-            <div className="display-6 mb-3 fw-bolder text-uppercase">
-              Helping the <span className="text-main">world's greatest </span>
-              creators create.
+          <div className="col-lg-5 col-12 align-self-center d-md-none d-block ">
+            <div className="display-5 fw-bolder text-main text-uppercase mb-2">
+              Our Work
             </div>
-            <p className="fs-6 ps-1">
-              Taking content creation to the next level with our post production
-              and growth strategy services.
+            <div className="display-6  mb-3 fw-bolder text-">
+              Professional Video Editing Services That Go Beyond Expectation.
+            </div>
+            <p className="fs-6 ps-0">
+              A broad range of video editing expertise at your service. Whether
+              you’re creating a promotional video, a marketing campaign, or a
+              personal project, Roshan Studio can help take your content to the
+              next level.
             </p>
-            <div className="btn btn border-main mx-auto mt-3 ms-1 rounded-1">
+            <div className="btn btn border-main mx-auto mt-1  rounded-1">
               Contact Us{" "}
               <i class="fa fa-arrow-right ps-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div className="col-lg-6 d-lg-block d-none p-5  col-12 align-self-center overflow-hidden ">
-            <img
-              src={
-                "https://th.bing.com/th/id/R.405380ab6bc525a7c65725d76e6b83c5?rik=aDPHizQu4YFdwg&pid=ImgRaw&r=0"
-              }
-              className="img-fluid rounded-4 p-5"
+          <div className="col-lg-7 d-lg-block d-none p-5  h-100 col-12 align-self-center overflow-hidden ">
+            <video
+              src={image}
+              className="img-fluid rounded-5 h-100 p-5 pe-0"
               alt=""
+              muted
+              autoPlay
+              loop
             />
+          </div>
+          <div className="col-12 mt-5">
+            <div className="row m-0">
+              <div className="col-lg-3 col-sm-6 col-12 py-lg-0 py-2">
+                <div className="card Cardse border-main text-center py-lg-5 py-4 px-lg-5 px-3 border-0 bg-light  shadow-sm">
+                  <div className="display-5 fw-bolder mb-2 ">8240+</div>
+                  <div className="fs-6 small">Youtube Videos Editied</div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-sm-6 col-12 py-lg-0 py-2">
+                <div className="card border-main Cardse text-center py-lg-5 py-4 px-lg-5 px-3 border-0 bg-light  shadow-sm">
+                  <div className="display-5 fw-bolder mb-2 ">1867+</div>
+                  <div className="fs-6 small">Short Videos Edited</div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-sm-6 col-12 py-lg-0 py-2">
+                <div className="card Cardse border-main text-center py-lg-5 py-4 px-lg-5 px-3 border-0 bg-light  shadow-sm">
+                  <div className="display-5 fw-bolder mb-2 ">54750+</div>
+                  <div className="fs-6 small">Hours of Content Edited</div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-sm-6 col-12 py-lg-0 py-2">
+                <div className="card Cardse border-main text-center  py-lg-5 py-4 px-lg-5 px-3  border-0 bg-light  shadow-sm">
+                  <div className="display-5 fw-bolder mb-2 ">3280+</div>
+                  <div className="fs-6 small">Thumbnails Edited</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-export default Mainhome;
+export default Mainportfolio;
