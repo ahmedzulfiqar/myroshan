@@ -128,3 +128,9 @@ a {
 .bg-gradient {
   background: linear-gradient(30deg, #9a40ff 20%, #7700ff 80%) !important;
 }
+.accordion-button:not(.collapsed) {
+  background-color: #9940ff00 !important;
+}
+.btn {
+  cursor: pointer !important;
+}

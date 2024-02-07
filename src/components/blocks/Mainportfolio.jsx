@@ -8,7 +8,8 @@ function Mainportfolio() {
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
         viewBox="0 0 800 800"
-        className=" position-absolute top-0 start-0 z-0"
+        className=" position-absolute top-0 start-0 "
+        style={{ zIndex: "-1" }}
         opacity="0.03"
       >
         <defs>
@@ -94,11 +95,11 @@ function Mainportfolio() {
       <div className="col-lg-9  col-12 my-5 px-lg-4 ">
         <div className="row m-0 justify-content-start">
           <div className="col-lg-5 col-12 align-self-center d-md-block d-none ">
-            <div className="display-4 fw-bolder text-main text-uppercase mb-2">
-              Our Work
+            <div className="display-3 fw-bolder text-main text-uppercase mb-2">
+              Our Videos
             </div>
-            <div className="display-5 mb-4 fw-bolder text-">
-              Professional Video Editing Services That Go Beyond Expectation.
+            <div className="display-4 mb-4 fw-bolder text-">
+              Find the right style for your video.
             </div>
             <p className="fs-5 ps-1">
               A broad range of video editing expertise at your service. Whether
@@ -112,11 +113,11 @@ function Mainportfolio() {
             </div>
           </div>
           <div className="col-lg-5 col-12 align-self-center d-md-none d-block ">
-            <div className="display-5 fw-bolder text-main text-uppercase mb-2">
-              Our Work
+            <div className="display-4 fw-bolder text-main text-uppercase mb-2">
+              Our Videos
             </div>
-            <div className="display-6  mb-3 fw-bolder text-">
-              Professional Video Editing Services That Go Beyond Expectation.
+            <div className="display-5  mb-3 fw-bolder text-">
+              Find the right style for your video.
             </div>
             <p className="fs-6 ps-0">
               A broad range of video editing expertise at your service. Whether
@@ -138,34 +139,6 @@ function Mainportfolio() {
               autoPlay
               loop
             />
-          </div>
-          <div className="col-12 mt-5">
-            <div className="row m-0">
-              <div className="col-lg-3 col-sm-6 col-12 py-lg-0 py-2">
-                <div className="card Cardse border-main text-center py-lg-5 py-4 px-lg-5 px-3 border-0 bg-light  shadow-sm">
-                  <div className="display-5 fw-bolder mb-2 ">8240+</div>
-                  <div className="fs-6 small">Youtube Videos Editied</div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 col-12 py-lg-0 py-2">
-                <div className="card border-main Cardse text-center py-lg-5 py-4 px-lg-5 px-3 border-0 bg-light  shadow-sm">
-                  <div className="display-5 fw-bolder mb-2 ">1867+</div>
-                  <div className="fs-6 small">Short Videos Edited</div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 col-12 py-lg-0 py-2">
-                <div className="card Cardse border-main text-center py-lg-5 py-4 px-lg-5 px-3 border-0 bg-light  shadow-sm">
-                  <div className="display-5 fw-bolder mb-2 ">54750+</div>
-                  <div className="fs-6 small">Hours of Content Edited</div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 col-12 py-lg-0 py-2">
-                <div className="card Cardse border-main text-center  py-lg-5 py-4 px-lg-5 px-3  border-0 bg-light  shadow-sm">
-                  <div className="display-5 fw-bolder mb-2 ">3280+</div>
-                  <div className="fs-6 small">Thumbnails Edited</div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -8,7 +8,8 @@ function Mainabout() {
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
         viewBox="0 0 800 800"
-        className=" position-absolute top-0 start-0 z-0"
+        className=" position-absolute top-0 start-0"
+        style={{ zIndex: "-1" }}
         opacity="0.03"
       >
         <defs>
