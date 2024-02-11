@@ -26,10 +26,10 @@ function Navbar() {
             </div>
             <List open={open} setopen={setopen} />
             <div className="col-3 d-lg-block d-none text-center">
-              <div className="btn border-main mx-auto">
+              <Link className="btn border-main mx-auto" to="/contact">
                 Contact Us{" "}
                 <i class="fa fa-arrow-right ps-2" aria-hidden="true"></i>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

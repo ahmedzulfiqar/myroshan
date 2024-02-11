@@ -4,6 +4,8 @@ import Header from "../layout/Header";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Portfolio from "../pages/Portfolio";
+import Services from "../pages/Services";
+import Contact from "../pages/Contact";
 
 function Routerfile() {
   const { pathname } = useLocation();
@@ -22,6 +24,8 @@ function Routerfile() {
               <Route path="/home" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </div>
         </div>

@@ -4,15 +4,21 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-creative";
 import { EffectCreative } from "swiper/modules";
-import img1 from "../media/real-estate/maxresdefault.jpg";
-import img2 from "../media/real-estate/maxresdefault (1).jpg";
-import img3 from "../media/real-estate/maxresdefault (2).jpg";
-import img4 from "../media/real-estate/maxresdefault (3).jpg";
-import img5 from "../media/real-estate/maxresdefault (4).jpg";
-import img6 from "../media/real-estate/maxresdefault (5).jpg";
+import img3 from "../media/vlogs/maxresdefault (2).jpg";
+import img4 from "../media/vlogs/maxresdefault (3).jpg";
+import img1 from "../media/vlogs/maxresdefault.jpg";
+import img5 from "../media/vlogs/maxresdefault (4).jpg";
+import img2 from "../media/vlogs/maxresdefault (1).jpg";
+import img6 from "../media/vlogs/maxresdefault (5).jpg";
+import img7 from "../media/vlogs/maxresdefault (6).jpg";
+import img8 from "../media/vlogs/maxresdefault (7).jpg";
+import img9 from "../media/vlogs/maxresdefault (8).jpg";
+import img10 from "../media/vlogs/maxresdefault (9).jpg";
+import img11 from "../media/vlogs/maxresdefault (10).jpg";
+import img12 from "../media/vlogs/maxresdefault (11).jpg";
 import Previewcard from "../atoms/Previewcard";
 
-function Secondportfolio() {
+function Fifthportfolio() {
   const [show, setshow] = useState(false);
   const jsonDataArray = [
     {
@@ -45,6 +51,26 @@ function Secondportfolio() {
       title: "The New Person",
       subscribers: "5.9M",
     },
+    {
+      imageUrl: img7,
+      title: "The Guy",
+      subscribers: "25.9K",
+    },
+    {
+      imageUrl: img8,
+      title: "The Reel Person",
+      subscribers: "10M",
+    },
+    {
+      imageUrl: img9,
+      title: "The New Person",
+      subscribers: "5.9M",
+    },
+    {
+      imageUrl: img10,
+      title: "The Guy",
+      subscribers: "25.9K",
+    },
   ];
 
   const variants = {
@@ -59,7 +85,7 @@ function Secondportfolio() {
           <motion.div className="col-lg-6 col-12 pe-lg-5 me-lg-5">
             <div className="fs-5 mb-2 fw-bold">PORTFOLIO</div>
             <div className="display-2 fw-bolder mb-4">
-              Real Estate <span className="text-main">Videos</span>
+               Vlogs <span className="text-main">Videos</span>
             </div>
             <p className="mb-lg-4 mb-2 fs-5 ">
               Browse through our award-winning work for both live-action and
@@ -125,5 +151,4 @@ function Secondportfolio() {
     </div>
   );
 }
-
-export default Secondportfolio;
+export default Fifthportfolio;

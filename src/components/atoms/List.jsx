@@ -15,7 +15,6 @@ function List({ open, setopen }) {
         <Listitem data={"About"} />
         <Listitem data={"Portfolio"} />
         <Listitem data={"Services"} />
-        <Listitem data={"Pricing"} />
       </div>
       <div className="col text-end d-xl-none d-block  align-self-center">
         <Toggleswitch open={open} setopen={setopen} />

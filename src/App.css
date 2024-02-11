@@ -18,7 +18,7 @@ a {
   --lessmain: #2b78f3;
   --primary: #15181a;
   --color: #f89e52;
-  --new: #ffffff09;
+  --new: #ffffff3c;
 }
 
 .bg-main {
@@ -32,6 +32,9 @@ a {
 }
 .bg-color {
   background-color: var(--color) !important;
+}
+.bg-new {
+  background-color: var(--new) !important;
 }
 .text-main {
   color: var(--main) !important;
@@ -133,4 +136,7 @@ a {
 }
 .btn {
   cursor: pointer !important;
+}
+.bg-lessmainer {
+  background-color: rgba(183, 119, 255, 0.129) !important;
 }
