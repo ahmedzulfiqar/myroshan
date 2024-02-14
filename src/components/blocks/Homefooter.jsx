@@ -23,15 +23,15 @@ function Homefooter() {
               their products and services.
             </div>
             <div className="d-flex col-lg-4 mt-lg-0 mt-3 col-12 align-self-center justify-content-lg-end justify-content-start ">
-              <div className="fs-2 pe-3">
+              <a className="fs-2 pe-3 text-dark" href="https://www.instagram.com/roshanstudio_101/">
                 <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-              </div>
-              <div className="fs-2 px-3">
+              </a>
+              <a className="fs-2 px-3 text-dark">
                 <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-              </div>
-              <div className="fs-2 px-3">
+              </a>
+              <a className="fs-2 px-3 text-dark" >
                 <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-              </div>
+              </a>
             </div>
           </div>
         </div>

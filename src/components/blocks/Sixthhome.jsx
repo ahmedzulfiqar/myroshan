@@ -10,7 +10,7 @@ function Sixthhome() {
             </div>
           </div>
           <div className="col-lg-4 col-12 mt-lg-0 mt-4 align-self-center ">
-            <div className="btn rounded-5 btn-lg text-dark bg-light border-main px-lg-5 py-lg-3">
+            <div className="btn rounded-5 btn-lg text-dark bg-light border-main px-lg-5 py-lg-3 position-relative z-3">
               Contact Us{" "}
               <i class="fa fa-arrow-right ps-3" aria-hidden="true"></i>
             </div>
@@ -18,7 +18,7 @@ function Sixthhome() {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
-            className=" position-absolute"
+            className=" position-absolute z-0"
             viewBox="0 0 1422 800"
           >
             <g
