@@ -1,19 +1,28 @@
 import React, { useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 function Sixthhome() {
   return (
     <div className="row m-0 justify-content-center my-5   text-light align-items-center  overflow-hidden ">
       <div className="col-lg-10 col-12 mt-lg-5 mt-0 px-lg-5  py-3 ">
         <div className="row m-0 justify-content-evenly rounded-4 py-5 shadow position-relative mt-lg-5 bg-gradient">
-          <div className="col-lg-7 col-12 ps-lg-5 pe-lg-5 px-3 ">
+          <div className="col-lg-7 col-12 ps-lg-5 pe-lg-5 px-3 d-xxl-block d-none">
             <div className="display-5 fw-bolder">
               Talk To Our Experts To Grow Your Content Faster Than Ever.
             </div>
           </div>
+          <div className="col-lg-8 col-12 ps-lg-5 pe-lg-5 px-3 d-xxl-none d-block">
+            <div className="display-6 fw-bolder">
+              Talk To  Experts To Grow Your Content Faster Than Ever.
+            </div>
+          </div>
           <div className="col-lg-4 col-12 mt-lg-0 mt-4 align-self-center ">
-            <div className="btn rounded-5 btn-lg text-dark bg-light border-main px-lg-5 py-lg-3 position-relative z-3">
+            <Link
+              className="btn rounded-5 btn-lg text-dark bg-light border-main px-lg-5 py-lg-3 position-relative z-2"
+              to="/contact"
+            >
               Contact Us{" "}
               <i class="fa fa-arrow-right ps-3" aria-hidden="true"></i>
-            </div>
+            </Link>
           </div>
           <svg
             xmlns="http://www.w3.org/2000/svg"

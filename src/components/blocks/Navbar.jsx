@@ -12,13 +12,13 @@ function Navbar() {
           <div className="row m-0  py-xl-4 py-3  px-md-5  justify-content-center ">
             <div className="col-xl-2  col-9 text-start  p-0  align-self-center">
               <Link
-                className="fs-3  d-xl-block d-none text-main fw-bold text-uppercase align-self-center"
+                className="fs-3  d-xxl-block d-none text-main fw-bold text-uppercase align-self-center"
                 to="/home"
               >
                 <span className="text-main ">Roshan</span> Studio
               </Link>
               <Link
-                className="fs-5  ps-0 d-xl-none d-block text-main fw-bold text-uppercase align-self-center"
+                className="fs-5  ps-0 d-xxl-none d-block text-main fw-bold text-uppercase align-self-center"
                 to="/home"
               >
                 <span className="text-main ">Roshan</span> Studio

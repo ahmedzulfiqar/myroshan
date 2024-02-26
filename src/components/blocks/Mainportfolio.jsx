@@ -94,7 +94,7 @@ function Mainportfolio() {
       </svg>
       <div className="col-lg-9  col-12 my-5 px-lg-4 ">
         <div className="row m-0 justify-content-start">
-          <div className="col-lg-5 col-12 align-self-center d-md-block d-none ">
+          <div className="col-lg-5 col-12 align-self-center d-xxl-block d-none ">
             <div className="display-3 fw-bolder text-main text-uppercase mb-2">
               Our Videos
             </div>
@@ -112,11 +112,11 @@ function Mainportfolio() {
               <i class="fa fa-arrow-right ps-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div className="col-lg-5 col-12 align-self-center d-md-none d-block ">
-            <div className="display-4 fw-bolder text-main text-uppercase mb-2">
+          <div className="col-lg-5 col-12 align-self-center d-xxl-none d-block ">
+            <div className="display-5 fw-bolder text-main text-uppercase mb-2">
               Our Videos
             </div>
-            <div className="display-5  mb-3 fw-bolder text-">
+            <div className="display-6  mb-3 fw-bolder text-">
               Find the right style for your video.
             </div>
             <p className="fs-6 ps-0">

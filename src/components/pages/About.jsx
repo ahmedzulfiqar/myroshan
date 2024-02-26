@@ -10,7 +10,6 @@ function About() {
     <div className="row m-0 ">
       <div className="col-12 p-0 ">
         <Mainabout />
-        <Secondabout />
         <Aboutfaq />
         <Sixthhome />
         <Homefooter />

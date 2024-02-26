@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../media/R Logo.png";
+import { Link } from "react-router-dom";
 
 function Mainhome() {
   return (
@@ -94,7 +95,7 @@ function Mainhome() {
       </svg>
       <div className="col-lg-9 col-12 mt-lg-0 mt-4  px-lg-4 ">
         <div className="row m-0 justify-content-center">
-          <div className="col-lg-6 col-12 align-self-center d-md-block d-none">
+          <div className="col-lg-6 col-12 align-self-center d-xxl-block d-none">
             <div className="display-3 mb-4 fw-bolder text-uppercase">
               Helping the <span className="text-main">world's greatest </span>
               creators create.
@@ -103,12 +104,15 @@ function Mainhome() {
               Taking content creation to the next level with our post production
               and growth strategy services.
             </p>
-            <div className="btn-lg btn border-main mx-auto mt-3 ms-1 rounded-1">
+            <Link
+              className="btn-lg btn border-main mx-auto mt-3 ms-1 rounded-1"
+              to="/contact"
+            >
               Contact Us{" "}
               <i class="fa fa-arrow-right ps-2" aria-hidden="true"></i>
-            </div>
+            </Link>
           </div>
-          <div className="col-lg-6 col-12 align-self-center d-md-none d-block">
+          <div className="col-lg-6 col-12 align-self-center d-xxl-none d-block">
             <div className="display-6 mb-3 fw-bolder text-uppercase">
               Helping the <span className="text-main">world's greatest </span>
               creators create.
@@ -117,10 +121,13 @@ function Mainhome() {
               Taking content creation to the next level with our post production
               and growth strategy services.
             </p>
-            <div className="btn btn border-main mx-auto mt-3 ms-1 rounded-1">
-              Contact Us{" "}
+            <Link
+              className="btn btn border-main mx-auto mt-3 ms-1 rounded-1 position-relative z-3"
+              to="/contact"
+            >
+              Contact Us
               <i class="fa fa-arrow-right ps-2" aria-hidden="true"></i>
-            </div>
+            </Link>
           </div>
           <div className="col-lg-6 d-lg-block d-none p-5  col-12 align-self-center overflow-hidden ">
             <img

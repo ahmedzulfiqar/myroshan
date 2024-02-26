@@ -12,8 +12,13 @@ function Home() {
       <div className="col-12 p-0 ">
         <Mainhome />
         <Secondhome />
-        <div className="col-12 text-center my-lg-5 mb-4">
+        <div className="col-12 text-center my-lg-5 mb-4 d-xxl-block d-none">
           <div className="display-4 text-dark fw-bolder text-uppercase">
+            Our <span className="text-main">Clients</span>
+          </div>
+        </div>
+        <div className="col-12 text-center my-lg-5 mb-4 d-xxl-none d-block">
+          <div className="display-5 text-dark fw-bolder text-uppercase">
             Our <span className="text-main">Clients</span>
           </div>
         </div>

@@ -13,12 +13,12 @@ import Reviewcard from "../atoms/Reviewcard";
 function Fifthhome() {
   return (
     <div
-      className="row m-0 justify-content-center align-items-center pt-4 overflow-hidden "
+      className="row m-0 justify-content-center align-items-center pt-5 overflow-hidden "
       style={{ minHeight: "80vh" }}
     >
-      <div className="col-lg-9 col-12 mt-lg-0 mt-4  px-lg-4 ">
+      <div className="col-lg-9 col-12 mt-lg-0 mt-4  px-xxl-4 ">
         <div className="row m-0 justify-content-evenly">
-          <div className="col-lg-6 col-12 pe-lg-5 me-lg-5">
+          <div className="col-lg-6 col-12 pe-lg-5 me-lg-5 d-xxl-block d-none">
             <div className="fs-5 mb-2 fw-bold">TESTIMONIALS</div>
             <div className="display-2 fw-bolder mb-3">
               Hear from the <span className="text-main">creators</span>
@@ -40,6 +40,32 @@ function Fifthhome() {
               </div>{" "}
               <div className="col-lg-3 col-md-4 col-6  px-lg-2 px-0 text-start mt-lg-0 my-3 ">
                 <div className="fs-1 fw-bold">2.5B+</div>
+                <div className="fs-6">Views received</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-12 pe-lg-5 me-lg-5 d-xxl-none d-block">
+            <div className="fs-5 mb-2 fw-bold">TESTIMONIALS</div>
+            <div className="display-4 fw-bolder mb-3">
+              Hear from the <span className="text-main">creators</span>
+            </div>
+            <p className="mb-xxl-5 mb-4">
+              We’re trusted by global creators across niches from reaction
+              videos to comedy and gaming. This is what they have to say!
+            </p>
+            <div className="row m-0 text-lg-start text-start ">
+              <div className="col-lg-3 col-md-4 col-6 px-0  text-lg-start text-start">
+                <div className="fs-2 fw-bold">50+</div>
+                <div className="fs-6">Creators Client</div>
+              </div>
+              <div className="col-lg-3 col-md-4 col-6  px-0 text-lg-start text-start ">
+                <div className="fs-2 fw-bold d-inline-block text-center">
+                  3M+
+                </div>
+                <div className="fs-6">Subscribers gained</div>
+              </div>{" "}
+              <div className="col-lg-3 col-md-4 col-6  px-lg-2 px-0 text-start mt-lg-0 my-3 ">
+                <div className="fs-2 fw-bold">2.5B+</div>
                 <div className="fs-6">Views received</div>
               </div>
             </div>

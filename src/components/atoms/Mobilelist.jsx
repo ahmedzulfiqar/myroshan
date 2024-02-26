@@ -23,7 +23,7 @@ function Mobilelist({ open, setopen }) {
   return (
     <>
       <motion.div
-        className="col-12 absoluter d-xl-none d-block  bg-white px-1 p-0  border-0 position-fixed"
+        className="col-12 absoluter d-xl-none d-block  bg-white px-1 p-0  border-0 position-fixed z-3"
         animate={open ? "open" : "closed"}
         initial={{ opacity: 0 }}
         variants={variants}

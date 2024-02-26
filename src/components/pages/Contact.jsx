@@ -9,7 +9,7 @@ import Maincontact from "../blocks/Maincontact";
 
 function Contact() {
   return (
-    <div className="row m-0 ">
+    <div className="row m-0 mt-lg-0 mt-5">
       <div className="col-12 p-0 ">
         <Maincontact />
         <Homefooter />

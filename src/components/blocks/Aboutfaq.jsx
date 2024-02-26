@@ -9,7 +9,7 @@ function Aboutfaq() {
     >
       <div className="col-lg-9  col-12 mt-lg-0 mt-0">
         <div className="row m-0 justify-content-center ">
-          <div className="col-lg-11 col-12 text-lg-center align-self-center ">
+          <div className="col-xxl-11 col-12 text-lg-center align-self-center ">
             <div className="display-6 mb-lg-5 mb-3  fw-bolder text-uppercase text-dark">
               Frequently Asked
               <span className="text-main"> Questions. </span>
@@ -68,7 +68,7 @@ function Aboutfaq() {
                 data={{
                   no: "7",
                   quieston:
-                    "Where is Praper Media located, and what are the working hours?",
+                    "Where is Roshan Studio located, and what are the working hours?",
                   answer:
                     "Our office is located in Islamabad, and working hours are 10 AM - 6 PM IST (Mon - Sat).",
                 }}

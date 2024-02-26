@@ -10,7 +10,7 @@ function Secondhome() {
     >
       <div className="col-lg-9 col-12 mt-lg-0 mt-4  px-lg-4 ">
         <div className="row m-0 justify-content-center">
-          <div className="col-lg-12 col-12 align-self-center ">
+          <div className="col-lg-12 col-12 align-self-center d-xll-block d-none">
             <div className="display-3 mb-4 fw-bolder text-uppercase text-main">
               Our <span className="text-dark">Services </span>
             </div>
@@ -19,8 +19,17 @@ function Secondhome() {
               and growth strategy services.
             </p>
           </div>
+          <div className="col-lg-12 col-12 align-self-center d-xll-none d-block">
+            <div className="display-5 mb-4 fw-bolder text-uppercase text-main">
+              Our <span className="text-dark">Services </span>
+            </div>
+            <p className="fs-6 ps-1">
+              Taking content creation to the next level with our post production
+              and growth strategy services.
+            </p>
+          </div>
           <div className="col-12">
-            <div className="row m-0 mt-lg-5 mt-3">
+            <div className="row m-0 mt-xxl-5 mt-3">
               <Cardse
                 data={{
                   name: "Promotional Videos",
